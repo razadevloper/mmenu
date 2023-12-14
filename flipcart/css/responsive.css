@@ -1,0 +1,186 @@
+@media (max-width:1200px){
+    .beautysec .top-deals-box {
+        display: flex;
+        gap: 0px;
+        margin-top: 25px;
+    }
+    .top-headersec .top-menu ul {
+        gap: 30px;
+    }
+    .top-headersec .top-menu ul{
+        padding-left: 0;
+    }
+    .ftrcntnt ul li p{
+        font-size: 12px;
+    }
+    .owl-nav button.owl-prev {
+        position: absolute;
+        content: "";
+        bottom: 3.5rem;
+        left: 0rem;
+        background-color: #fff !important;
+        padding: 20px !important;
+        height: 81px !important;
+        width: 39px;
+        /* border-radius: 1px; */
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+    .owl-nav button.owl-next{
+        bottom: 3.5rem;
+    }
+    .btmmenusec .main-menu {
+        margin-left: 0px;
+    }
+    .btmmenusec .menu-logo{
+        padding: 12px;
+    }
+    .electronicssec .electr-prdct .elect-hdng h6 {
+        color: #000000bf;
+        text-wrap: nowrap;
+        font-size: 15px;
+    }
+    .beautysec .top-deals-box .top-prdct {
+        margin-left: 15px;
+    }
+    .topdeals-bannersec .banner-img img {
+        width: 100%;
+        height: 234px;
+        object-fit: contain;
+    }
+    .topdeals-bannersec .banner-img img {
+        width: 100%;
+        height: 234px;
+        object-fit: contain;
+        padding: 16px 0;
+    }
+    .beautysec {
+        padding: 10px;
+    }
+    /* .top-side-img img {
+        height: 675px;
+        width: 100%;
+        object-fit: cover;
+    } */
+    .yerspecailsec .mainspcl-box {
+        padding-right: 10px;
+    }
+    .yerspecailsec .top-deals-box {
+        margin: 0px 0 0 0px;
+    }
+}
+
+
+/* --------------1024 Responsive size start------------ */
+
+@media (max-width:1024px){
+    .top-menu .log-btn {
+        transition: 0.3s ease-in;
+        padding: 7px 12px 10px 12px;
+        border-radius: 12px;
+    }
+    footer .ftr-btm-img img{
+        width: 100%;
+    }
+    .top-headersec .top-menu ul li {
+        font-size: 16px;
+    }
+    .ftrcntnt ul li p {
+        font-size: 11px;
+        text-wrap: wrap;
+    }
+    footer .ftrcntnt ul li a {
+        font-size: 11px;
+    }
+    .beautysec .top-deals-box .top-prdct {
+        /* margin-left: 2px; */
+        padding: 12px 5px;
+        height: 235px;
+    }
+    .beautysec .top-deals-box .top-prdct .top-hdng {
+        margin-top: 3px;
+    }
+    .yerspecailsec .mainspcl-box .spcl-box .top-deals-box .top-prdct .top-hdng p {
+        text-align: center;
+        font-size: 14px;
+    }
+    .yerspecailsec .mainspcl-box .spcl-box .top-deals-box .top-prdct .top-hdng h6 {
+        text-align: center;
+        font-size: 13px;
+    }
+    .top-headersec .top-menu ul li {
+        font-size: 16px;
+        text-wrap: nowrap;
+    }
+    .top-headersec .top-menu ul {
+        gap: 20px;
+    }
+    .btmmenusec{
+        display: none;
+    }
+    .slide-banner{
+        margin-top: 75px;
+    }
+    .owl-carousel .owl-item img {
+        display: block;
+        width: 100%;
+        height: 196px;
+    }
+    .electronicssec .electr-prdct .elect-hdng h6 {
+        color: #000000bf;
+        text-wrap: nowrap;
+        font-size: 14px;
+        overflow: hidden;
+    }
+    .beautysec .top-deals-box .top-prdct .top-prdct-img img {
+        padding: 10px 10px;
+    }
+    .beautysec .top-deals-box .top-prdct .top-hdng h6{
+        overflow: hidden;
+    }
+    .topdeals-bannersec .banner-img img {
+        width: 100%;
+        height: 228px;
+        object-fit: contain;
+        padding: 16px 0;
+        object-fit: unset;
+    }
+    .electronicssec .electr-prdct {
+        height: 238px;
+        width: 250px;
+    }
+    .top-side-img img {
+        height: 595px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .yerspecailsec .mainspcl-box {
+        padding-right: 0px;
+    }
+    footer {
+        margin-top: 1rem;
+        background-color: #212121;
+        /* padding-bottom: 2rem; */
+    }
+    .right-img img {
+        height: 595px;
+        object-fit: cover;
+    }
+     
+}
+@media (max-width:768px){
+    .top-headersec{
+        display: none;
+    }
+    .responsive-navbar{
+        display: block;
+    }
+}
+@media (max-width: 600px){
+    .topsearch-bar{
+        display: block;
+    }
+    .m-icon{
+        padding: 12px;
+    }
+}

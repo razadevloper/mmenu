@@ -1,0 +1,1305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flipcart</title>
+    <!-- Bootsrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- FontAwesome link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css" />
+    <!-- Slic Slider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.4/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+    <!-- Crousel link -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="js/jquery.min.js" />
+    <!-- Custom css -->
+    <link rel="stylesheet" href="js/custom.js" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+    <!-- top-header -->
+
+    <section class="top-headersec header-top fixed-top sticky" id="navbar">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="top-logo">
+                        <img src="images/menu-logo/flip-cart-logo.png" alt="" />
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="topsearch-bar">
+                        <form action="#">
+                            <input type="text" placeholder="Search for Products, Brands and More"
+                                class="form-control" />
+                        </form>
+                        <div class="seacrch-btn">
+                            <a href="#"><i class="bi bi-search"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="top-menu">
+                        <ul>
+                            <li class="log-btn">
+                                <img src="images/prfl-icon.svg" alt=""><a href="#"> LogIn</a>
+                                <i class="bi bi-chevron-down"></i>
+                            </li>
+                            <li><img src="images/cart-icon.svg" alt=""><a href="#"> Cart</a></li>
+                            <li>
+                                <img src="images/menu-logo/became-seller.svg" class="img-fluid" alt="" /><a href="#">
+                                    Become a Seller</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="bi bi-three-dots-vertical"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ---------Mobile navbar----- -->
+    <section class="responsive-navbar header-top fixed-top sticky" id="navbar">
+        <div class="container-fluid">
+            <div class="mobile-menu">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="mobile-nvbar">
+                            <div class="mnav-btn">
+                                <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                                    aria-controls="offcanvasExample">
+                                    <i class="bi bi-list"></i>
+                                </a>
+                            </div>
+    
+                            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                                aria-labelledby="offcanvasExampleLabel">
+                                <div class="offcanvas-header">
+                                    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <div>
+                                        Some text as placeholder. In real life you can have the elements you have chosen.
+                                        Like,
+                                        text, images,
+                                        lists, etc.
+                                    </div>
+                                    <div class="dropdown mt-3">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button"
+                                            id="dropdownMenuButton" data-bs-toggle="dropdown">
+                                            Dropdown button
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="m-logo">
+                                <img src="images/mobile-logo.png" alt="">
+                                <a class="m-logo-btn" href="/plus">Explore <span class="plus-logo">Plus</span><img
+                                        width="10" src="images/plus_aef861.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="m-srch">
+                            <div class="topsearch-bar">
+                                <form action="#">
+                                    <input type="text" placeholder="Search for Products, Brands and More"
+                                        class="form-control" />
+                                </form>
+                                <div class="m-icon">
+                                    <img src="images/cart-icon.svg" class="img-fluid" alt="">
+                                    <img src="images/prfl-icon.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-md-2">
+                    <div class="m-logo">
+                        <img src="images/menu-logo/flip-cart-logo.png" alt="">
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <!-- ------Top header End---------- -->
+
+    <!-- --------Bottom Menu----------- -->
+
+    <section class="btmmenusec">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="main-menu">
+                        <div class="menu-logo">
+                            <a href="#"><img src="images/menu-logo/Grocery.png" class="img-fluid" alt="" /></a>
+                            <div class="menubtn">
+                                <a href="#">Grocery</a>
+                            </div>
+                        </div>
+                        <div class="menu-logo">
+                            <a href="#"><img src="images/menu-logo/mobiles.png" class="img-fluid" alt="" /></a>
+                            <div class="menubtn">
+                                <a href="#">mobiles</a>
+                            </div>
+                        </div>
+                        <div class="menu-logo">
+                            <a href="#"><img src="images/menu-logo/faishion.png" class="img-fluid" alt="" /></a>
+                            <div class="menubtn">
+                                <a href="#">Faishion <i class="bi bi-chevron-down"></i></a>
+                            </div>
+                        </div>
+                        <div class="menu-logo">
+                            <a href="#"><img src="images/menu-logo/electronics.png" class="img-fluid" alt="" /></a>
+                            <div class="menubtn">
+                                <a href="#">Electronics <i class="bi bi-chevron-down"></i></a>
+                            </div>
+                        </div>
+                        <div class="menu-logo">
+                            <a href="#"><img src="images/menu-logo/home-furniture.jpg" class="img-fluid" alt="" /></a>
+                            <div class="menubtn">
+                                <a href="#">Home & Furniture <i class="bi bi-chevron-down"></i></a>
+                            </div>
+                        </div>
+                        <div class="menu-logo">
+                            <a href="#"><img src="images/menu-logo/Applicances.jpg" class="img-fluid" alt="" /></a>
+                            <div class="menubtn">
+                                <a href="#"> Applicances</a>
+                            </div>
+                        </div>
+                        <div class="menu-logo">
+                            <a href="#"><img src="images/menu-logo/travel.png" class="img-fluid" alt="" /></a>
+                            <div class="menubtn">
+                                <a href="#"> Travel</a>
+                            </div>
+                        </div>
+                        <div class="menu-logo">
+                            <a href="#"><img src="images/menu-logo/toys.png" class="img-fluid" alt="" /></a>
+                            <div class="menubtn">
+                                <a href="#">
+                                    Beauty, Toys $ More <i class="bi bi-chevron-down"></i></a>
+                            </div>
+                        </div>
+                        <div class="menu-logo">
+                            <a href="#"><img src="images/menu-logo/two-wheelers.png" class="img-fluid" alt="" /></a>
+                            <div class="menubtn">
+                                <a href="#">
+                                    Two Wheelers <i class="bi bi-chevron-down"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Slider main container -->
+
+    <!-- --------Bottom menu end------- -->
+
+    <!-- ---------Top Slider ---------- -->
+
+    <section class="top-slidersec">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="slide-banner">
+                        <div class="owl-carousel">
+                            <div class="item">
+                                <div class="banner-img">
+                                    <img src="images/slider-img/slider-1.jpg" alt="" />
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="banner-img">
+                                    <img src="images/slider-img/slider-2.jpg" alt="" />
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="banner-img">
+                                    <img src="images/slider-img/slider-3.jpg" alt="" />
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="banner-img">
+                                    <img src="images/slider-img/slider-4.jpg" alt="" />
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="banner-img">
+                                    <img src="images/slider-img/slider-5.jpg" alt="" />
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="banner-img">
+                                    <img src="images/slider-img/slider-6.jpg" alt="" />
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="banner-img">
+                                    <img src="images/slider-img/slider-7.jpg" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --------Top Slider Ebd ------ -->
+
+    <!-- ----------Best Electronics Section---- -->
+
+    <section class="electronicssec">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-10">
+                    <div class="row">
+                        <div class="main-electron">
+                            <div class="besthdng">
+                                <h3>Best mobiles</h3>
+                            </div>
+                            <div class="next-btn">
+                                <a href="https://www.flipkart.com/offers-list/best-mobile?screen=dynamic&pk=themeViews%3DBBD23-Mob-best-deals-DT-OMU%3AApp-OMU~widgetType%3DdealCard~contentType%3Dneo"
+                                    target="_blank"><i class="bi bi-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="main-electronics-prdct mobile-slider">
+                                <div class="electr-prdct">
+                                    <a href="#">
+                                        <div class="elec-img">
+                                            <img src="images/faishon/m2.jpeg" alt="" />
+                                        </div>
+                                        <div class="elect-hdng">
+                                            <h6>Top Mirrorless Camera</h6>
+                                        </div>
+                                        <div class="shop-btn">
+                                            <p class="text-center">Shop Now !</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="electr-prdct">
+                                    <a href="#">
+                                        <div class="elec-img">
+                                            <img src="images/faishon/m2.jpeg" alt="" />
+                                        </div>
+                                        <div class="elect-hdng">
+                                            <h6>Top Mirrorless Camera</h6>
+                                        </div>
+                                        <div class="shop-btn">
+                                            <p class="text-center">Shop Now !</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="electr-prdct">
+                                    <a href="#">
+                                        <div class="elec-img">
+                                            <img src="images/faishon/m3.jpeg" alt="" />
+                                        </div>
+                                        <div class="elect-hdng">
+                                            <h6>Top Mirrorless Camera</h6>
+                                        </div>
+                                        <div class="shop-btn">
+                                            <p class="text-center">Shop Now !</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="electr-prdct">
+                                    <a href="#">
+                                        <div class="elec-img">
+                                            <img src="images/faishon/m4.jpeg" alt="" />
+                                        </div>
+                                        <div class="elect-hdng">
+                                            <h6>Top Mirrorless Camera</h6>
+                                        </div>
+                                        <div class="shop-btn">
+                                            <p class="text-center">Shop Now !</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="electr-prdct">
+                                    <a href="#">
+                                        <div class="elec-img">
+                                            <img src="images/faishon/m5.jpeg" alt="" />
+                                        </div>
+                                        <div class="elect-hdng">
+                                            <h6>Top Mirrorless Camera</h6>
+                                        </div>
+                                        <div class="shop-btn">
+                                            <p class="text-center">Shop Now !</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="electr-prdct">
+                                    <a href="#">
+                                        <div class="elec-img">
+                                            <img src="images/faishon/m2.jpeg" alt="" />
+                                        </div>
+                                        <div class="elect-hdng">
+                                            <h6>Top Mirrorless Camera</h6>
+                                        </div>
+                                        <div class="shop-btn">
+                                            <p class="text-center">Shop Now !</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="electr-side-img">
+                        <img src="images/faishon/m-6.jpeg" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ----------Best Electronics Section---- -->
+
+    <!-------------Top Deals Section start------------ -->
+
+    <section class="beautysec">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="beauty">
+                        <div class="besthdng">
+                            <h3>Top Deals</h3>
+                        </div>
+                        <div class="beauty-btn">
+                            <a href="https://www.flipkart.com/offers-list/top-deals?screen=dynamic&pk=themeViews%3DLS-TBBD-23-Topbrands%3ADD-new~widgetType%3DdealCard~contentType%3Dneo"
+                                target="_blank"><i class="bi bi-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="top-deals-box top-slider-box">
+                        <div class="top-prdct">
+                            <a href="#">
+                                <div class="top-prdct-img">
+                                    <img src="images/top-1.jpeg" alt="" />
+                                </div>
+                                <div class="top-hdng">
+                                    <h6>ADIDAS, Skechers & more</h6>
+                                    <p>Min. 50-80% Off</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="top-prdct">
+                            <a href="#">
+                                <div class="top-prdct-img">
+                                    <img src="images/top-2.jpeg" alt="" />
+                                </div>
+                                <div class="top-hdng">
+                                    <h6>ADIDAS, Skechers & more</h6>
+                                    <p>Min. 50-80% Off</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="top-prdct">
+                            <a href="#">
+                                <div class="top-prdct-img">
+                                    <img src="images/top-3.jpeg" alt="" />
+                                </div>
+                                <div class="top-hdng">
+                                    <h6>ADIDAS, Skechers & more</h6>
+                                    <p>Min. 50-80% Off</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="top-prdct">
+                            <a href="#">
+                                <div class="top-prdct-img">
+                                    <img src="images/top-4.jpeg" alt="" />
+                                </div>
+                                <div class="top-hdng">
+                                    <h6>ADIDAS, Skechers & more</h6>
+                                    <p>Min. 50-80% Off</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="top-prdct">
+                            <a href="#">
+                                <div class="top-prdct-img">
+                                    <img src="images/top-6.jpeg" alt="" />
+                                </div>
+                                <div class="top-hdng">
+                                    <h6>ADIDAS, Skechers & more</h6>
+                                    <p>Min. 50-80% Off</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="top-prdct">
+                            <a href="#">
+                                <div class="top-prdct-img">
+                                    <img src="images/top-5.jpeg" alt="" />
+                                </div>
+                                <div class="top-hdng">
+                                    <h6>ADIDAS, Skechers & more</h6>
+                                    <p>Min. 50-80% Off</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="top-prdct">
+                            <a href="#">
+                                <div class="top-prdct-img">
+                                    <img src="images/top-6.jpeg" alt="" />
+                                </div>
+                                <div class="top-hdng">
+                                    <h6>ADIDAS, Skechers & more</h6>
+                                    <p>Min. 50-80% Off</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------------Top Deals Section End------------ -->
+
+    <!-- ----------Top Deals Banner Section ----------- -->
+
+    <section class="topdeals-bannersec">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="banner-img">
+                        <img src="images/top-banner.jpg" alt="" />
+                    </div>
+                </div>
+                <div class="col-md-4 px-0">
+                    <div class="banner-img">
+                        <img src="images/top-banner-2.jpg" alt="" />
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="banner-img">
+                        <img src="images/top-banner-3.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ----------Top Deals Banner Section ----------- -->
+
+    <!-- -----------Features brand section start-------- -->
+    <section class="ftrbrandsec">
+        <div class="container-fluid">
+            <div class="ftr-hdng">
+                <h6>Features Brands</h6>
+            </div>
+            <div class="ftr-img">
+                <div class="imgslid">
+                    <a href="#">
+                        <img src="images/features-brand/fb-1.jpeg" class="d-block w-100" alt="" />
+                    </a>
+                </div>
+                <div class="imgslid">
+                    <a href="#">
+                        <img src="images/features-brand/fb-2.jpeg" class="d-block w-100" alt="" />
+                    </a>
+                </div>
+                <div class="imgslid">
+                    <a href="#">
+                        <img src="images/features-brand/fb-3.jpeg" class="d-block w-100" alt="" />
+                    </a>
+                </div>
+                <div class="imgslid">
+                    <a href="#">
+                        <img src="images/features-brand/fb-4.jpeg" class="d-block w-100" alt="">
+                    </a>
+                </div>
+                <div class="imgslid">
+                    <a href="#">
+                        <img src="images/features-brand/fb-5.jpeg" class="d-block w-100" alt="">
+                    </a>
+                </div>
+                <div class="imgslid">
+                    <a href="#">
+                        <img src="images/features-brand/fb-6.jpeg" class="d-block w-100" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- -----------Features brand section End-------- -->
+
+    <!-- ----------Futres Banner -------- -->
+    <section class="topdeals-bannersec">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="#">
+                        <div class="banner-img">
+                            <img src="images/ftr-banner-1.jpg" alt="" />
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 px-0">
+                    <a href="#">
+                        <div class="banner-img">
+                            <img src="images/ftr-banner-2.jpg" alt="" />
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#">
+                        <div class="banner-img">
+                            <img src="images/ftr-banner-3.jpg" alt="" />
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- -------------Fuyters banner end------ -->
+
+    <!-------------Top Deals on electronics---- -->
+
+    <section class="beautysec">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="beauty">
+                        <div class="besthdng">
+                            <h3>Top Deals on Electronics</h3>
+                        </div>
+                        <div class="beauty-btn">
+                            <a href="https://www.flipkart.com/offers-list/top-deals-on-electronics?screen=dynamicpk=themeViews%3DElec-BSD23-OMU-HP-1%3ADT~widgetType%3DdealCard~contentType%3Dneo"
+                                target="_blank"><i class="bi bi-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="top-deals-box electronics-slider">
+                        <div class="top-prdct imgslid">
+                            <a href="#">
+                                <div class="top-prdct-img">
+                                    <img src="images/electronics-img/el-1.jpeg" alt="" />
+                                </div>
+                                <div class="top-hdng">
+                                    <h6>Mobile Speakers</h6>
+                                    <p>From ₹599</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="top-prdct imgslid">
+                            <a href="#">
+                                <div class="top-prdct-img">
+                                    <img src="images/electronics-img/el-2.jpg" alt="" />
+                                </div>
+                                <div class="top-hdng">
+                                    <h6>Best-Selling Smartwatches</h6>
+                                    <p>From ₹999</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="top-prdct imgslid">
+                            <a href="#">
+                                <div class="top-prdct-img">
+                                    <img src="images/electronics-img/el-3.jpeg" alt="" />
+                                </div>
+                                <div class="top-hdng">
+                                    <h6>Apple iPad 9th Gen</h6>
+                                    <p>From ₹22,490*</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="top-prdct imgslid">
+                            <a href="#">
+                                <div class="top-prdct-img">
+                                    <img src="images/electronics-img/el-4.jpeg" alt="" />
+                                </div>
+                                <div class="top-hdng">
+                                    <h6>Top Deals on Monitors</h6>
+                                    <p>From ₹599/Month*</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="top-prdct imgslid">
+                            <a href="#">
+                                <div class="top-prdct-img">
+                                    <img src="images/electronics-img/el-5.jpeg" alt="" />
+                                </div>
+                                <div class="top-hdng">
+                                    <h6>Top Deals on Gaming Monitor</h6>
+                                    <p>From ₹7,899</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="top-prdct imgslid">
+                            <a href="#">
+                                <div class="top-prdct-img">
+                                    <img src="images/electronics-img/el-6.jpeg" alt="" />
+                                </div>
+                                <div class="top-hdng">
+                                    <h6>Mobile Chargers are here</h6>
+                                    <p>From ₹7,899</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --------Electronics banner  start------>
+    <section class="topdeals-bannersec">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="#">
+                        <div class="banner-img">
+                            <img src="images/electronics-img/electric-1.jpg" alt="" />
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 px-0">
+                    <a href="#">
+                        <div class="banner-img">
+                            <img src="images/electronics-img/electric-2.jpg" alt="" />
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#">
+                        <div class="banner-img">
+                            <img src="images/electronics-img/electric-3.png" alt="" />
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="beautysec">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="beauty">
+                        <div class="besthdng">
+                            <h3>Fashion Best Sellers</h3>
+                        </div>
+                        <div class="beauty-btn">
+                            <a href="https://www.flipkart.com/offers-list/fashion-best-sellers?screen=dynamic&pk=themeViews%3DLS-TBBD-23-KnockoutDeals%3ADD~widgetType%3DdealCard~contentType%3Dneo"
+                                target="_blank"><i class="bi bi-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="top-deals-box faishion-box-slider">
+                        <div class="top-prdct imgslid">
+                            <a href="#">
+                                <div class="top-prdct-img">
+                                    <img src="images/faishon/f1.jpeg" alt="" />
+                                </div>
+                                <div class="top-hdng">
+                                    <h6>NIKE, PUMA & More</h6>
+                                    <p>Min. 40-60% Off</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="top-prdct imgslid">
+                            <a href="#">
+                                <div class="top-prdct-img">
+                                    <img src="images/faishon/f2.jpeg" alt="" />
+                                </div>
+                                <div class="top-hdng">
+                                    <h6>PUMA, New Balance & more</h6>
+                                    <p>Min. 60-80% Off</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="top-prdct imgslid">
+                            <a href="#">
+                                <div class="top-prdct-img">
+                                    <img src="images/faishon/f3.jpeg" alt="" />
+                                </div>
+                                <div class="top-hdng">
+                                    <h6>ADIDAS, Skechers & more</h6>
+                                    <p>Min. 50-80% Off</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="top-prdct imgslid">
+                            <a href="#">
+                                <div class="top-prdct-img">
+                                    <img src="images/faishon/f4.jpeg" alt="" />
+                                </div>
+                                <div class="top-hdng">
+                                    <h6>Adidas & Reebok</h6>
+                                    <p>Min. 50-80% Off</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="top-prdct imgslid">
+                            <a href="#">
+                                <div class="top-prdct-img">
+                                    <img src="images/faishon/f5.jpeg" alt="" />
+                                </div>
+                                <div class="top-hdng">
+                                    <h6>PUMA, New Balance & more</h6>
+                                    <p>Min. 50-80% Off</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="top-prdct imgslid">
+                            <a href="#">
+                                <div class="top-prdct-img">
+                                    <img src="images/faishon/f6.jpeg" alt="" />
+                                </div>
+                                <div class="top-hdng">
+                                    <h6>Adidas & Reebok</h6>
+                                    <p>Min. 50-80% Off</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="top-prdct imgslid">
+                            <a href="#">
+                                <div class="top-prdct-img">
+                                    <img src="images/faishon/f1.jpeg" alt="" />
+                                </div>
+                                <div class="top-hdng">
+                                    <h6>NIKE, PUMA & More</h6>
+                                    <p>Min. 40-60% Off</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- -------New Year Section start----------- -->
+
+    <section class="yerspecailsec beautysec">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="mainspcl-box">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="hdng-box">
+                                    <div class="besthdng">
+                                        <h3>New Year Specail</h3>
+                                    </div>
+                                    <div class="beauty-btn">
+                                        <a href="https://www.flipkart.com/offers-list/new-year-specials?screen=dynamic&pk=contentTags%3DNewYear~marketplace%3DFLIPKART~widgetType%3DdealCard~contentType%3DpersonalisedRecommendation%2FC5&marketplace=FLIPKART"
+                                            target="_blank"><i class="bi bi-chevron-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="spcl-box">
+                            <div class="row mb-2">
+                                <div class="col-md-6 px-0">
+                                    <div class="top-deals-box">
+                                        <div class="top-prdct">
+                                            <a href="#">
+                                                <div class="top-prdct-img">
+                                                    <img src="images/faishon/spcl-1.jpeg" alt="" />
+                                                </div>
+                                                <div class="top-hdng">
+                                                    <h6>Mens Sports Shoes</h6>
+                                                    <p>Min. 70% Off</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 px-0">
+                                    <div class="top-deals-box">
+                                        <div class="top-prdct">
+                                            <a href="#">
+                                                <div class="top-prdct-img">
+                                                    <img src="images/faishon/spcl-2.jpeg" alt="" />
+                                                </div>
+                                                <div class="top-hdng">
+                                                    <h6>NIKE, PUMA & More</h6>
+                                                    <p>Min. 40-60% Off</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 px-0">
+                                    <div class="top-deals-box">
+                                        <div class="top-prdct">
+                                            <a href="#">
+                                                <div class="top-prdct-img">
+                                                    <img src="images/faishon/spcl-3.jpeg" alt="" />
+                                                </div>
+                                                <div class="top-hdng">
+                                                    <h6>Mens Sports Shoes</h6>
+                                                    <p>Min. 70% Off</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 px-0">
+                                    <div class="top-deals-box">
+                                        <div class="top-prdct">
+                                            <a href="#">
+                                                <div class="top-prdct-img">
+                                                    <img src="images/faishon/spcl-4.jpeg" alt="" />
+                                                </div>
+                                                <div class="top-hdng">
+                                                    <h6>NIKE, PUMA & More</h6>
+                                                    <p>Min. 40-60% Off</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <a href="#">
+                        <div class="top-side-img">
+                            <img src="images/faishon/top-selling-img.jpg" class="w-100" alt="">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="yerspecailsec beautysec">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="mainspcl-box">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="hdng-box">
+                                    <a href="#">
+                                        <div class="besthdng">
+                                            <h3>New Style For Her</h3>
+                                        </div>
+                                    </a>
+                                    <div class="beauty-btn">
+                                        <a href="https://www.flipkart.com/offers-list/new-styles-for-her?screen=dynamic&pk=contentTags%3DStyles_For_Her~marketplace%3DFLIPKART~widgetType%3DdealCard~contentType%3DpersonalisedRecommendation%2FC5&marketplace=FLIPKART"
+                                            target="_blank"><i class="bi bi-chevron-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="spcl-box">
+                            <div class="row mb-2">
+                                <div class="col-md-6 px-0">
+                                    <div class="top-deals-box">
+                                        <div class="top-prdct">
+                                            <a href="#">
+                                                <div class="top-prdct-img">
+                                                    <img src="images/p1.jpeg" alt="" />
+                                                </div>
+                                                <div class="top-hdng">
+                                                    <h6>Mens Sports Shoes</h6>
+                                                    <p>Min. 70% Off</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 px-0">
+                                    <div class="top-deals-box">
+                                        <div class="top-prdct">
+                                            <a href="#">
+                                                <div class="top-prdct-img">
+                                                    <img src="images/p2.jpeg" alt="" />
+                                                </div>
+                                                <div class="top-hdng">
+                                                    <h6>NIKE, PUMA & More</h6>
+                                                    <p>Min. 40-60% Off</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 px-0">
+                                    <div class="top-deals-box">
+                                        <div class="top-prdct">
+                                            <a href="#">
+                                                <div class="top-prdct-img">
+                                                    <img src="images/p5.jpeg" alt="" />
+                                                </div>
+                                                <div class="top-hdng">
+                                                    <h6>Mens Sports Shoes</h6>
+                                                    <p>Min. 70% Off</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 px-0">
+                                    <div class="top-deals-box">
+                                        <div class="top-prdct">
+                                            <a href="#">
+                                                <div class="top-prdct-img">
+                                                    <img src="images/p6.jpeg" alt="" />
+                                                </div>
+                                                <div class="top-hdng">
+                                                    <h6>NIKE, PUMA & More</h6>
+                                                    <p>Min. 40-60% Off</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="mainspcl-box">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <a href="#">
+                                    <div class="hdng-box">
+                                        <div class="besthdng">
+                                            <h3>Wedding Specail</h3>
+                                        </div>
+                                        <div class="beauty-btn">
+                                            <a href="https://www.flipkart.com/search?q=wedding%20specail&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off"
+                                                target="_blank"><i class="bi bi-chevron-right"></i></a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="spcl-box">
+                            <div class="row mb-2">
+                                <div class="col-md-6 px-0">
+                                    <div class="top-deals-box">
+                                        <div class="top-prdct">
+                                            <a href="#">
+                                                <div class="top-prdct-img">
+                                                    <img src="images/p3.jpeg" alt="" />
+                                                </div>
+                                                <div class="top-hdng">
+                                                    <h6>Mens Sports Shoes</h6>
+                                                    <p>Min. 70% Off</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 px-0">
+                                    <div class="top-deals-box">
+                                        <div class="top-prdct">
+                                            <a href="#">
+                                                <div class="top-prdct-img">
+                                                    <img src="images/p-4.jpeg" alt="" />
+                                                </div>
+                                                <div class="top-hdng">
+                                                    <h6>NIKE, PUMA & More</h6>
+                                                    <p>Min. 40-60% Off</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 px-0">
+                                    <div class="top-deals-box">
+                                        <div class="top-prdct">
+                                            <a href="#">
+                                                <div class="top-prdct-img">
+                                                    <img src="images/p7.jpeg" alt="" />
+                                                </div>
+                                                <div class="top-hdng">
+                                                    <h6>Mens Sports Shoes</h6>
+                                                    <p>Min. 70% Off</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 px-0">
+                                    <div class="top-deals-box">
+                                        <div class="top-prdct">
+                                            <a href="#">
+                                                <div class="top-prdct-img">
+                                                    <img src="images/p8.jpeg" alt="" />
+                                                </div>
+                                                <div class="top-hdng">
+                                                    <h6>NIKE, PUMA & More</h6>
+                                                    <p>Min. 40-60% Off</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <a href="#">
+                        <div class="right-img">
+                            <img src="images/faishon/right-banner.jpg" class="w-100" alt="">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --------Footer Section Start--------- -->
+
+    <footer>
+        <div class="bottom-brdr">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="ftr-fst">
+                                    <div class="ftrhdng">
+                                        <h6>About</h6>
+                                    </div>
+                                    <div class="ftrcntnt">
+                                        <ul>
+                                            <li><a href="#">Contact Us</a></li>
+                                            <li><a href="#">About Us</a></li>
+                                            <li><a href="#">Carriers</a></li>
+                                            <li><a href="#">Flipcart Stories</a></li>
+                                            <li><a href="#">Press</a></li>
+                                            <li><a href="#">Flipkart Wholesale</a></li>
+                                            <li><a href="#">Clear Trip</a></li>
+                                            <li><a href="#">Corporate Information</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="ftrhdng">
+                                    <h6>Help</h6>
+                                </div>
+                                <div class="ftrcntnt">
+                                    <ul>
+                                        <li><a href="#">Payments</a></li>
+                                        <li><a href="#">Shipping</a></li>
+                                        <li><a href="#">Cancellation & Returns</a></li>
+                                        <li><a href="#">FAQ</a></li>
+                                        <li><a href="#">Report Infringment</a></li>
+                                        <!-- <li><a href="#">Flipkart Wholesale</a></li>
+                                        <li><a href="#">Clear Trip</a></li>
+                                        <li><a href="#">Corporate Information</a></li> -->
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="ftrhdng">
+                                    <h6>Counsumer Policy</h6>
+                                </div>
+                                <div class="ftrcntnt">
+                                    <ul>
+                                        <li><a href="#">Cancellation & Returns</a></li>
+                                        <li><a href="#">Terms Of Use</a></li>
+                                        <li><a href="#">Security</a></li>
+                                        <li><a href="#">Privacy</a></li>
+                                        <li><a href="#">Sitemap</a></li>
+                                        <li><a href="#">Grievance Redressal</a></li>
+                                        <li><a href="#">EPR Compliance</a></li>
+                                        <!-- <li><a href="#">Corporate Information</a></li> -->
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="ftrhdng">
+                                    <h6>Socail</h6>
+                                </div>
+                                <div class="ftrcntnt">
+                                    <ul>
+                                        <li><a href="#">Facebook</a></li>
+                                        <li><a href="#">Twitter</a></li>
+                                        <li><a href="#">YouTube</a></li>
+                                        <!-- <li><a href="#">Flipcart Stories</a></li>
+                                        <li><a href="#">Press</a></li>
+                                        <li><a href="#">Flipkart Wholesale</a></li>
+                                        <li><a href="#">Clear Trip</a></li>
+                                        <li><a href="#">Corporate Information</a></li> -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="ftrside">
+                                    <div class="ftrhdng">
+                                        <h6>Mail Us</h6>
+                                    </div>
+                                    <div class="ftrcntnt">
+                                        <ul class="ftrmail">
+                                            <li>
+                                                <p>Flipkart Internet Private Limited, </p>
+                                            </li>
+                                            <li>
+                                                <p> Buildings Alyssa, Begonia & </p>
+                                            </li>
+                                            <li>
+                                                <p> Clove Embassy Tech Village, </p>
+                                            </li>
+                                            <li>
+                                                <p> Outer Ring Road, Devarabeesanahalli Village, </p>
+                                            </li>
+                                            <li>
+                                                <p> Bengaluru, 560103, </p>
+                                            </li>
+                                            <li>
+                                                <p> Karnataka, India</p>
+                                            </li>
+                                            <!-- <li><a href="#">Clear Trip</a></li>
+                                            <li><a href="#">Corporate Information</a></li> -->
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="ftrhdng">
+                                    <h6>Registered Office Address:</h6>
+                                </div>
+                                <div class="ftrcntnt">
+                                    <ul>
+                                        <li>
+                                            <p>Flipkart Internet Private Limited, </p>
+                                        </li>
+                                        <li>
+                                            <p> Buildings Alyssa, Begonia & </p>
+                                        </li>
+                                        <li>
+                                            <p> Clove Embassy Tech Village, </p>
+                                        </li>
+                                        <li>
+                                            <p> Outer Ring Road, Devarabeesanahalli Village, </p>
+                                        </li>
+                                        <li>
+                                            <p> Bengaluru, 560103, </p>
+                                        </li>
+                                        <li>
+                                            <p> Karnataka, India </p>
+                                        </li>
+                                        <li>
+                                            <p> CIN : U51109KA2012PTC066107 </p>
+                                        </li>
+                                        <li><a href="tel:044-45614700" class="ftr-num"><span>Telephone :
+                                                </span>044-45614700</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="ftr-btm-icon">
+                        <ul>
+                            <li><img src="images/ftr-icon.svg" alt=""><a href="#" class="ftr-link"> Became a Seller</a>
+                            </li>
+                            <li><img src="images/ftr-icon1.svg" alt=""><a href="#"> Advertise</a></li>
+                            <li><img src="images/ftr-icon2.svg" alt=""><a href="#"> Gift</a></li>
+                            <li> <img src="images/ftr-icon3.svg" alt=""><a href="#"> Help</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="ftr-btm-img">
+                        <img src="images/ftr-img4.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- --------Footer Section Start--------- -->
+    <!-- Bootsrap js -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"
+        integrity="sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script>
+        var owl = $(".owl-carousel");
+        owl.owlCarousel({
+            margin: 10,
+            loop: true,
+            nav: true,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            dots: false,
+            responsive: {
+                0: {
+                    items: 1,
+                },
+                600: {
+                    items: 1,
+                },
+                1000: {
+                    items: 1,
+                },
+            },
+        });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/swiper.js"></script>
+
+</body>
+
+</html>
